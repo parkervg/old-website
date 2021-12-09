@@ -70,6 +70,7 @@ content:
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
+          ![discourse-referent-demo](img/discourse-referent-demo.png)
           Interactive demo for a project building a generative RNN in <mark> PyTorch </mark> with dynamic entity representations. Performs coreference, as well as predicting the next mentioned noun phrase referent in a first-person narrative.
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
