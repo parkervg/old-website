@@ -12,7 +12,7 @@ email: brett.h@email.co.uk
 website: www.github.com/sproogen/resume-theme
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
 twitter_username: facespics
@@ -109,7 +109,7 @@ content:
       - Knitting
       - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-      Look at this cool image  
+      Look at this cool image
       ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
