@@ -69,9 +69,8 @@ content:
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
+        description: ![discourse-referent-demo](img/discourse_referent_demo.png)| # this will include new lines to allow paragraphs
+          Interactive demo for a project building a generative RNN in <mark> PyTorch </mark> with dynamic entity representations. Performs coreference, as well as predicting the next mentioned noun phrase referent in a first-person narrative.
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
