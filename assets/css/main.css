@@ -220,7 +220,7 @@ input, select, textarea {
 			-webkit-overflow-scrolling: touch;
 			display: block;
 			line-height: 1.5em;
-			overflow-x: auto;
+			/* overflow-x: auto; */
 			padding: 1em 1.5em;
 		}
 
@@ -2200,7 +2200,7 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			height: 20em;
+			height: 8em;
 			border-radius: 0;
 		}
 
@@ -3317,4 +3317,16 @@ input, select, textarea {
 
 b, strong {
 	color: #F76C6C;
+}
+
+
+.column {
+	float: left;
+	width: 50%;
+}
+
+
+.column-sm {
+	float: left;
+	width: 33%;
 }
