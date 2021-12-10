@@ -75,56 +75,74 @@
 					<h3>Experience</h3>
 					<p>Check out a PDF version of my latest resume <a href="pdfs/ParkerGlenn_resume.pdf"> here </a>. </p>
 					<div class="row">
-						<div class="column">
-							<header>
-								<h4>WorkHuman</h4>
-								<p>NLP Intern <br /> May 2021 - Present</p>
-							</header>
-							<ul>
-								<li>Created system for information extraction and temporally-dependent topic modeling with <b> Gensim </b> and <b> Pandas </b>, winning an internal Customer Strategy innovation competition.</li>
-								<li>Developed a Python package to calculate and visualize inter-annotator agreement from AWS Ground Truth data, with <b> Numpy </b> and <b> Seaborn </b></li>
-								<li>Researched novel annotation methodologies, conducting experiments and writing a proposal to integrate into the current system</li>
-							</ul>
+						<div class="col-sm-6">
+							<div class="card">
+								<div class="card-header">
+									WorkHuman
+								</div>
+								<div class="card-body">
+									<h4 class="card-title">NLP Intern</h4>
+									<h5> May 2021 - Present </h5>
+									<p class="card-text">
+										<ul>
+											<li>Created system for information extraction and temporally-dependent topic modeling with <b> Gensim </b> and <b> Pandas </b>, winning an internal Customer Strategy innovation competition.</li>
+											<li>Developed a Python package to calculate and visualize inter-annotator agreement from AWS Ground Truth data, with <b> Numpy </b> and <b> Seaborn </b></li>
+											<!-- <li>Researched novel annotation methodologies, conducting experiments and writing a proposal to integrate into the current system</li> -->
+										</ul>
+									</p>
+								</div>
+							</div>
 						</div>
-						<div class="column">
-							<header>
-								<h4>Brandeis University</h4>
-								<p>Graduate Research Assistant <br />August 2020 - October 2021</p>
-							</header>
-							<ul>
-								<li>Worked in the Lab for Linguistics and Computation.</li>
-								<li>Researched affordance extraction and multi-modal NLU under Prof. James Pustejovsky
-								</li>
-								<li>Maintained server and deployed BiRCh corpus search engine under Prof. Sophia Malamud</li>
-							</ul>
+						<div class="col-sm-6">
+							<div class="card">
+								<div class="card-header">
+									Brandeis University
+								</div>
+								<div class="card-body">
+									<h4 class="card-title">Graduate Research Assistant</h4>
+									<h5> August 2020 - October 2021 </h5>
+									<ul>
+										<li>Worked in the Lab for Linguistics and Computation.</li>
+										<li>Researched affordance extraction and multi-modal NLU under Prof. James Pustejovsky
+										</li>
+										<li>Maintained server and deployed BiRCh corpus search engine under Prof. Sophia Malamud</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="card">
+								<div class="card-header">
+									Briq
+								</div>
+								<div class="card-body">
+									<h4 class="card-title">Junior Software Engineer</h4>
+									<h5> October 2019 - August 2020 </h5>
+									<ul>
+										<li>Previous roles: Data Science Intern, Data Science Associate</li>
+										<li>Created and managed Python microservices deployed in <b>Kubernetes</b> with <b>Docker</b></li>
+										<li>Built pipeline for annotating large quantities of documents with <b>Google AutoML</b> predictions</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="card">
+								<div class="card-header">
+									UCSB Data Science Club
+								</div>
+								<div class="card-body">
+									<h4 class="card-title">Project Group Leader</h4>
+									<h5> September 2019 - June 2020 </h5>
+									<ul>
+										<li>Mentored a group of approximately 100-150 students as they completed and ultimately presented a project applying various techniques in Data Science</li>
+										<li>Designed a <b>Jupyter Notebook</b> curriculum to introduce beginners to concepts in Git and data visualization
+										</li>
+									</ul>
+								</div>
+							</div>
 						</div>
 					</div>
-
-					<div class="row">
-						<div class="column">
-							<header>
-								<h4>Briq</h4>
-								<p>Junior Software Engineer <br /> October 2019 - August 2020</p>
-							</header>
-							<ul>
-								<li>Previous roles: Data Science Intern, Data Science Associate</li>
-								<li>Created and managed Python microservices deployed in <b>Kubernetes</b> with <b>Docker</b></li>
-								<li>Built pipeline for annotating large quantities of documents with <b>Google AutoML</b> predictions</li>
-							</ul>
-						</div>
-						<div class="column">
-							<header>
-								<h4>University of California, Santa Barbara</h4>
-								<p>Project Group Leader <br />September 2019 - June 2020</p>
-							</header>
-							<ul>
-								<li>Mentored a group of approximately 100-150 students as they completed and ultimately presented a project applying various techniques in Data Science</li>
-								<li>Designed a <b>Jupyter Notebook</b> curriculum to introduce beginners to concepts in Git and data visualization
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
 			</section>
 
 			<section id="three">
@@ -226,8 +244,10 @@
 
 								</p>
 								<pre><code>>>> python -m cli.shap_grams SUBJ
-The label 1 refers to objective statements,
-and 0 refers to subjective statements.
+The label 1 refers to
+objective statements,
+and 0 refers to
+subjective statements.
 
 Top ngrams for class 0:
 visceral excitement
