@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
-<body class="is-preload">
+<body class="is-preload" onload="LoadApi()">
 
 	<!-- Header -->
 	<section id="header">
@@ -640,6 +640,14 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 		</div>
 
 		<!-- Scripts -->
+		<script>
+			function LoadApi() {
+				fetch("https://referent-api.herokuapp.com/is_up/").then(response => response.json())
+					.then(data => {
+						console.log(data);
+					})
+			}
+		</script>
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/jquery.scrollex.min.js"></script>
 		<script src="assets/js/jquery.scrolly.min.js"></script>
