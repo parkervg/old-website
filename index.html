@@ -77,14 +77,41 @@
 
 			<section id="research">
 				<div class="container">
-					<h3>Research & Publications</h3>
-					<ul>
-						<li> <a href="https://aclanthology.org/2022.nlperspectives-1.5.pdf" target="_blank">The Viability of Best-worst Scaling in Detecting Implicit Bias</a> (LREC 2022)</li>
-						<li> <a href="https://arxiv.org/pdf/2105.05999.pdf" target="_blank">Designing Multimodal Datasets for NLP Challenges</a></li>
-						<li> <a href="pdfs/shap_dim_reduction.pdf" target="_blank">Reducing Embedding Dimensionality for Classification with SHAP</a></li>
-					</ul>
-
-				</div>
+					<h3>Research & Publications 📝</h3>
+					<p>You can find my Google Scholar page <a href="https://scholar.google.com/citations?user=UH8IP5QAAAAJ&hl=en">here</a>.</p>
+					<div class="features">
+					<article>
+						<a class="image">
+							<img src="images/destt5.png" alt="" /></a>
+						<div class="inner">
+							<h4><a href="https://arxiv.org/pdf/2305.19974.pdf" target="_blank">Correcting Semantic Parses with Natural Language through Dynamic Schema Encoding</a></h4>
+							<p><i><b>NLP4ConvAI, ACL 2023</b></i></p>
+						</div>
+					</article>
+							<article>
+							<a class="image">
+								<img src="images/bws.png" alt="" /></a>
+							<div class="inner">
+								<h4><a href="https://aclanthology.org/2022.nlperspectives-1.5.pdf" target="_blank">The Viability of Best-worst Scaling in Detecting Implicit Bias</a></h4>
+								<p><i><b>NLPerspectives, LREC 2022</b></i></p>
+							</div>
+						</article>
+						<article>
+							<a class="image">
+								<img src="images/shap-dim-reduction.png" alt="" /></a>
+							<div class="inner">
+								<h4><a href="pdfs/shap_dim_reduction.pdf" target="_blank">Reducing Embedding Dimensionality for Classification with SHAP</a></h4>
+								<p></p>
+							</div>
+						</article>
+						<article>
+							<a class="image">
+								<img src="images/meatloaf.png" alt="" /></a>
+							<div class="inner">
+								<h4><a href="https://arxiv.org/pdf/2105.05999.pdf" target="_blank">Designing Multimodal Datasets for NLP Challenges</a></h4>
+								<p></p>
+							</div>
+						</article>
 			</section>
 
 
@@ -139,49 +166,49 @@
 								</form>
 							</div>
 						</article>
-						<article>
-							<a class="image"><img src="images/shap-dim-reduction.png" alt="" /></a>
-							<div class="inner">
-								<h4>SHAP Dimensionality Reduction</h4>
-								<p>
-									A research project exploring the relationship between dense embedding post-processing and performance on downstream classification tasks.
+<!--						<article>-->
+<!--							<a class="image"><img src="images/shap-dim-reduction.png" alt="" /></a>-->
+<!--							<div class="inner">-->
+<!--								<h4>SHAP Dimensionality Reduction</h4>-->
+<!--								<p>-->
+<!--									A research project exploring the relationship between dense embedding post-processing and performance on downstream classification tasks.-->
 
-									<br /><br />
+<!--									<br /><br />-->
 
-									This project was based on the <b> <a href="https://github.com/facebookresearch/SentEval"> SentEval </a> </b> toolkit, using the model explainability tool <b> <a href=" https://github.com/slundberg/shap"> SHAP </a></b> to extract
-									those
-									dimensions in <b> GloVe </b> embeddings with the largest marginal contribution to the classifier's prediction. I also built a command-line tool for interpreting an ngram's influence on predicted classification labels, given its
-									dense embedding representation.
-									<br /><br />
-									In the example below, we see how the tool can be used to identify a <b> multilayer perceptron's </b> ability to associate the ngram pattern "{noun phrase}, {relative clause}" with objective movie reviews in the <a
-										href="https://paperswithcode.com/dataset/subj" target="_blank">SUBJ dataset</a>.
+<!--									This project was based on the <b> <a href="https://github.com/facebookresearch/SentEval"> SentEval </a> </b> toolkit, using the model explainability tool <b> <a href=" https://github.com/slundberg/shap"> SHAP </a></b> to extract-->
+<!--									those-->
+<!--									dimensions in <b> GloVe </b> embeddings with the largest marginal contribution to the classifier's prediction. I also built a command-line tool for interpreting an ngram's influence on predicted classification labels, given its-->
+<!--									dense embedding representation.-->
+<!--									<br /><br />-->
+<!--									In the example below, we see how the tool can be used to identify a <b> multilayer perceptron's </b> ability to associate the ngram pattern "{noun phrase}, {relative clause}" with objective movie reviews in the <a-->
+<!--										href="https://paperswithcode.com/dataset/subj" target="_blank">SUBJ dataset</a>.-->
 
-								</p>
-								<pre><code>>>> python -m cli.shap_grams SUBJ
-The label 1 refers to
-objective statements,
-and 0 refers to
-subjective statements.
+<!--								</p>-->
+<!--								<pre><code>>>> python -m cli.shap_grams SUBJ-->
+<!--The label 1 refers to-->
+<!--objective statements,-->
+<!--and 0 refers to-->
+<!--subjective statements.-->
 
-Top ngrams for class 0:
-visceral excitement
-zhao benshan
-cel animation
-drug kingpin
-vincent d'onofrio
+<!--Top ngrams for class 0:-->
+<!--visceral excitement-->
+<!--zhao benshan-->
+<!--cel animation-->
+<!--drug kingpin-->
+<!--vincent d'onofrio-->
 
-Top ngrams for class 1:
-businessman who
-officer who
-wife who
-writer who
-british officer who
-								</code></pre>
-								<form action="https://github.com/parkervg/shap-dim-reduction" target="_blank">
-									<input type="submit" class="primary" value="Visit GitHub Repo" />
-								</form>
-							</div>
-						</article>
+<!--Top ngrams for class 1:-->
+<!--businessman who-->
+<!--officer who-->
+<!--wife who-->
+<!--writer who-->
+<!--british officer who-->
+<!--								</code></pre>-->
+<!--								<form action="https://github.com/parkervg/shap-dim-reduction" target="_blank">-->
+<!--									<input type="submit" class="primary" value="Visit GitHub Repo" />-->
+<!--								</form>-->
+<!--							</div>-->
+<!--						</article>-->
 					</div>
 				</div>
 			</section>
